@@ -1,11 +1,12 @@
 {
-    "name": "upstream-team/laravel-search-crawler",
-    "description": "Text search and crawler",
+    "name": "upstream-team/laravel-crawler-detect",
+    "description": "Wrapper for the crawler detection package",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
         "laravel/laravel": "^v8.0.0",
+        "laravel/framework": "^8",
         "jaybizzle/crawler-detect": "^v1.2"
     },
     "autoload": {
