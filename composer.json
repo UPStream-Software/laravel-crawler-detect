@@ -1,0 +1,24 @@
+{
+    "name": "upstream-team/laravel-search-crawler",
+    "description": "Text search and crawler",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/laravel": "^v8.0.0",
+        "jaybizzle/crawler-detect": "^v1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "UpstreamTeam\\CrawlerDetect\\Tests\\": "tests",
+            "UpstreamTeam\\CrawlerDetect\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "UpstreamTeam\\CrawlerDetect\\Providers\\CrawlerDetectServiceProvider"
+            ]
+        }
+    }
+}
