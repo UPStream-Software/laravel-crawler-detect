@@ -5,7 +5,7 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
-        "laravel/framework": "^8",
+        "laravel/framework": "^v8",
         "jaybizzle/crawler-detect": "^v1.2"
     },
     "autoload": {
