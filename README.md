@@ -6,21 +6,8 @@ Welcome to the Laravel Crawler Detect repository, your powerful ally in identify
 
 ## Install
 
-Add in ``composer.json``
-
 ```
-"repositories": [
-        // ...
-        {
-            "type": "vcs",
-            "url": "git@github.com:UPStream-Software/laravel-crawler-detect.git"
-        },
-        // ...
-
-"require": {
-    // ...
-    "upstream-team/laravel-search-crawler": "^0.1.0",
-    // ...
+composer require upstream-team/laravel-crawler-detect
 ```
 
 ## Usage
